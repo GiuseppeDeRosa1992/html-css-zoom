@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 
 }
@@ -48,16 +48,29 @@ body {
 }
 /************** CSS HEADER **********/
 header{
-    height: 3vh;
+    height: 7vh;
+    background-color: #000;
+}
+
+header > div {
+    padding-top: 0.2rem;
+}
+
+header span {
+    padding: 0.2rem;
+    background-color: #4A4A4A;
+    font-size: 12px;
+    border-radius: 10%;
+    margin: 0 0.2rem;
 }
 
 /*************** CSS MAIN ***************/
 main {
-    background-color: black;
+    background-color: #000;
 }
 
 .vh-90{
-    height: 90vh;
+    height: 85vh;
 }
 
 .card {
@@ -73,7 +86,7 @@ main {
 
 /************ CSS FOOTER *************/
 footer{
-    height: 7vh;
+    height: 8vh;
     background-color: #222222;
 }
 

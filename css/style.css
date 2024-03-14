@@ -22,3 +22,60 @@ body {
 
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.jc-center {
+    justify-content: center;
+}
+/************** CSS HEADER **********/
+header{
+    height: 3vh;
+}
+
+/*************** CSS MAIN ***************/
+main{
+    height: 90vh;
+    background-color: #000000;
+}
+
+/************ CSS FOOTER *************/
+footer{
+    height: 7vh;
+    background-color: #222222;
+}
+
+footer .flex{
+    height: 100%;
+    gap: 1rem;
+}
+
+footer .fs-12 {
+    font-size: 12px;
+}
+
+.small-footer {
+    width: 15%;
+}
+
+.big-footer {
+    width: 70%;
+}
+
+footer .bg-gray {
+    background-color: #4A4A4A;
+}
+
+footer .c-red {
+    color: red;
+}
+
+footer .c-green {
+    color: green;
+}
